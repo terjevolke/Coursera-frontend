@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
     font-family: monospace }
+ .container-fluid{margin: 20px;
+
+    }
   h1 {
 font-size: 1,75em ;
 
@@ -10,12 +13,11 @@ font-size: 1,75em ;
   .section1, .section2, .section3 {
     border: 1px solid black;
     background-color: grey;
-    margin-right: auto;
-    margin-left: auto;
+
     margin: 10px;
     font-size: 1,25em;
     width: 100%;
-    height: absolute;
+    height: relative;
 
   }
 h2 {
@@ -25,7 +27,7 @@ h2 {
     margin-top: 0px;
     float: right;
     text-align: center;
-    width: absolute;
+    width: 90px;
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -40,13 +42,14 @@ h2.Sushi {
 p {
     padding: 10px;
     margin-top: 20px;
+
 }
 
 
   @media (min-width: 992px) {
 
     .section1, .section2, .section3 {
-      width: 30%;
+      width: 31%;
       float: left;
     }
   }
