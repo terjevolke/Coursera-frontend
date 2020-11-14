@@ -4,47 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu2</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-    <h1 id="menuTitle">Our Menu</h1>
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-sm">
 
-    <div class="col-lg-4 col-md-6 col-lt-12">
-        <div class="columnContent">
-            <div id="chickenTitle" class="sectionTitle">Chicken</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu justo leo. Vestibulum nulla ipsum,
-                imperdiet ut sollicitudin ac, vulputate quis dolor. Aliquam vitae placerat metus, vel euismod odio.
-                Etiam mi lorem, consectetur eu porta nec, ultricies ut sapien. Etiam nec imperdiet orci. Aenean interdum
-                non mi at maximus. In sed venenatis nunc.</p>
+            <span class="navbar-brand mb-0 h1">Food, LLC</span>
+
+
+            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav d-sm-none">
+                    <li><a href="#chickenTitle">Chicken</a></li>
+                    <li><a href="#beefTitle">Beef</a></li>
+                    <li><a href="#sushiTitle">Sushi </a></li>
+                </ul>
+            </div>
+            </div>
+
+        </nav>
+    </header>
+    <h2 id="menuTitle">Our Menu</h2>
+    <div class="container-fluid"></div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="columnContent">
+                <h3 id="chickenTitle" class="sectionTitle">Chicken</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu justo leo. Vestibulum nulla
+                    ipsum,
+                    imperdiet ut sollicitudin ac, vulputate quis dolor. Aliquam vitae placerat metus, vel euismod
+                    odio.
+                    Etiam mi lorem, consectetur eu porta nec, ultricies ut sapien. Etiam nec imperdiet orci. Aenean
+                    interdum
+                    non mi at maximus. In sed venenatis nunc.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="columnContent">
+                <h3 id="beefTitle" class="sectionTitle">Beef</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu justo leo. Vestibulum nulla
+                    ipsum,
+                    imperdiet ut sollicitudin ac, vulputate quis dolor. Aliquam vitae placerat metus, vel euismod
+                    odio.
+                    Etiam mi lorem, consectetur eu porta nec, ultricies ut sapien. Etiam nec imperdiet orci. Aenean
+                    interdum
+                    non mi at maximus. In sed venenatis nunc.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="columnContent">
+                <h3 id="sushiTitle" class="sectionTitle">Sushi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu justo leo. Vestibulum nulla
+                    ipsum,
+                    imperdiet ut sollicitudin ac, vulputate quis dolor. Aliquam vitae placerat metus, vel euismod
+                    odio.
+                    Etiam mi lorem, consectetur eu porta nec, ultricies ut sapien. Etiam nec imperdiet orci. Aenean
+                    interdum
+                    non mi at maximus. In sed venenatis nunc.</p>
+            </div>
         </div>
     </div>
-
-    <div class="col-lg-4 col-md-6 col-lt-12">
-        <div class="columnContent">
-            <div id="beefTitle" class="sectionTitle">Beef</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu justo leo. Vestibulum nulla ipsum,
-                imperdiet ut sollicitudin ac, vulputate quis dolor. Aliquam vitae placerat metus, vel euismod odio.
-                Etiam mi lorem, consectetur eu porta nec, ultricies ut sapien. Etiam nec imperdiet orci. Aenean interdum
-                non mi at maximus. In sed venenatis nunc.</p>
-        </div>
     </div>
-
-    <div class="col-lg-4 col-md-12 col-lt-12">
-        <div class="columnContent">
-            <div id="sushiTitle" class="sectionTitle">Sushi</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu justo leo. Vestibulum nulla ipsum,
-                imperdiet ut sollicitudin ac, vulputate quis dolor. Aliquam vitae placerat metus, vel euismod odio.
-                Etiam mi lorem, consectetur eu porta nec, ultricies ut sapien. Etiam nec imperdiet orci. Aenean interdum
-                non mi at maximus. In sed venenatis nunc.</p>
-        </div>
-    </div>
-
-
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
+
+
+
 
 </html>
