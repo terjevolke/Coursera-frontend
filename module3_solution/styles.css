@@ -46,7 +46,8 @@ color: cadetblue;
 }
 .navbar{
     padding: 0px;
+
 }
-span{
+.navbar-brand{
     padding-left: 20px;
 }
